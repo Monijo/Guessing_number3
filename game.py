@@ -12,6 +12,9 @@ HTML_Start = """
 <body>
 <h1> Imagin number between 0 and 1000 </h1>
 <form action = "" method ="POST">
+    <input type="submit" name="user_answer" value="too big">
+    <input type="submit" name="user_answer" value="too small">
+    <input type="submit" name="user_answer" value="you won">
     <input type ="hidden" name="min" value="{}">
     <input type ="hidden" name="max" value="{}">
     input type="submit" value = "OK">
