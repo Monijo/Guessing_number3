@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 
 app = Flask(__name__)
 
@@ -54,6 +54,11 @@ Win_HTML = """
 </html>
 """
 
+@app.route("/" method = ["GET", "POST"])
+def guess_the_number():
+    if request.method == "GET":
+        return Start_HTML.format(0,1000)
+    
 
 
 
