@@ -58,7 +58,12 @@ Win_HTML = """
 def guess_the_number():
     if request.method == "GET":
         return Start_HTML.format(0,1000)
-    
+    else:
+        min_number = int(request.form.get("min"))
+        max_number = int(request.form.get("max"))
+        user_answer = request.form.get("user_answer")
+        guess = int(request.form.get("guess", 500))
+
 
 
 
