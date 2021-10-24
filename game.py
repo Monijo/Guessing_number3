@@ -15,9 +15,10 @@ HTML_Start = """
     <input type="submit" name="user_answer" value="too big">
     <input type="submit" name="user_answer" value="too small">
     <input type="submit" name="user_answer" value="you won">
-    <input type ="hidden" name="min" value="{}">
-    <input type ="hidden" name="max" value="{}">
-    input type="submit" value = "OK">
+    <input type ="hidden" name="min" value="{min}">
+    <input type ="hidden" name="max" value="{max}">
+    <input type = "hidden" name="guess" value="{guess}">
+    
 </form>
 </body>
 </html>
