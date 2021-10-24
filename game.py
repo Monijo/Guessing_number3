@@ -41,6 +41,19 @@ Game_HTML = """
 </html>
 """
 
+Win_HTML = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= "UTF-8">
+    <title>Guess the number</title>
+</head>
+<body>
+    <h1> I guess your number {number}! I win!</h1>
+</body>
+</html>
+"""
+
 
 
 
